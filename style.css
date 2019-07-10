@@ -20,9 +20,45 @@ nav a {
     color: white;
 }
 
+header {
+    padding-top: 38px;
+    background-image: url("https://luskinconferencecenter.ucla.edu/wp-content/uploads/2018/03/Blog_Luskin.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
 
+.slide {
+    height: 75vh;
+    background-color:honeydew;
+    border: 1pix solid #ffffff;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+div h1 {
+    color: black;
+    font-size: 2.5em;
+}
 
+#about {
+    background-color: #10b45a
+}
+
+#my-profile-pic {
+    background-image: url("../head.jpg");
+    height: 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#my-profile-details {
+    width: 60%;
+    background-color: #10b45a
+}
 
 
 
@@ -39,5 +75,5 @@ nav a {
 
 
 h2 {
-    background-color: bisque
+    background-color: whitesmoke
 }
