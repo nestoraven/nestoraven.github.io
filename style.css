@@ -30,7 +30,7 @@ header {
 .slide {
     height: 75vh;
     background-color:honeydew;
-    border: 1pix solid #ffffff;
+    border: 1px solid #ffffff;
     margin: 10px;
     padding: 20px;
     display: flex;
@@ -60,18 +60,34 @@ div h1 {
     background-color: #10b45a
 }
 
+.post-wrapper {
+    width: 100%;
+    background-color: #10b45a;
+    border: 2px dotted paleturquoise;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+#blog {
+    flex-direction: column;
+    height: auto;
+}
+
+.date {
+    float:right;
+    font-style: italic;
+    font-weight: 400;
+}
 
 
-
-
-
-
-
-
-
-
-
-
+#car-game {
+    background-image: url("./car-game.png");
+    height: 500px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 
 h2 {
